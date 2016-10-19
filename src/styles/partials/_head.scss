@@ -1,0 +1,39 @@
+body {
+   background-image: url("http://www.aniwallpaper.com/wp-content/uploads/2015/12/Sky-Wallpaper-Free-Download.jpg");
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+
+}
+header {
+  height: 90px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#address {
+  background: none;
+  border: 3px solid #fff;
+  box-shadow: none;
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 5px;
+  outline: none;
+  padding: 0 0 0 15px;
+  width: 40%;
+
+}
+
+.search-icon {
+  height: 45px;
+  margin-left: 20px;
+  margin-top: 23px;
+   transition:  .7s ease-out;
+  }
+ .search-icon:hover {
+   transform: rotate(44deg);
+   color: #fff;
+ }
