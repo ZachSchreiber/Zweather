@@ -3,10 +3,8 @@
 
 <head>
     <link rel="stylesheet" href="lib/styles/main.min.css" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script>
-    <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp"type="text/javascript"></script>
-    <title>Zweath</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FARTS</title>
 </head>
 
 <body>
@@ -14,7 +12,7 @@
         <input type="text" id="address" placeholder="City, State">
         <img src="images/search.png" class="search-icon" alt="search" />
     </header>
-     <div class="row content">
+    <div class="row content">
         <div class="row tempIcon">
             <div class="col-md-6 col-sm-6 col-xs-6" id="temp"></div>
             <div class="col-md-6 col-sm-6 col-xs-6" id="glycon"></div>
@@ -23,19 +21,18 @@
             <div class="col-md-12 col-sm-12 col-xs-12 forecast"></div>
         </div>
         <div class=" row links">
-          <div class='col-md-2 col-sm-2 col-xs-2 new-link2' style="display:none"><b></b></div>
-          <div class='col-md-2 col-sm-2 col-xs-2 new-link1' style="display:none" ><b></b></div>
-            <div class=" col-xs-2 home-link" ><b>Home</b></div>
+            <div class='col-md-2 col-sm-2 col-xs-2 new-link2' style="display:none"><b></b></div>
+            <div class='col-md-2 col-sm-2 col-xs-2 new-link1' style="display:none"><b></b></div>
+            <div class=" col-xs-2 home-link"><b>Home</b></div>
             <p id="ad">Powered by <a href="https://darksky.net/poweredby/">Dark Sky</a></p>
         </div>
     </div>
     <!-- <canvas id="icon1" width="128" height="128"></canvas>
   <canvas id="icon2" width="128" height="128"></canvas> -->
-
-     <script id="home-slider" type="text/x-handlebars-template">
-
-    </script>
-
+    <script id="home-slider" type="text/x-handlebars-template"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script>
+    <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+    <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
     <script src="lib/js/main.min.js"></script>
     <script src="https://rawgithub.com/darkskyapp/skycons/master/skycons.js"></script>
 </body>

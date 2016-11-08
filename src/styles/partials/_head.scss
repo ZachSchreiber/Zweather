@@ -15,7 +15,7 @@ header {
 }
 #address {
   background: none;
-  border: 3px solid #fff;
+  @include whiteBorder();
   box-shadow: none;
   color: black;
   font-size: 50px;

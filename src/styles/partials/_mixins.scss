@@ -1,0 +1,11 @@
+//variables & mixins...
+$orange : #ff5722;
+
+
+@mixin border() {
+  border: 3px solid $orange;
+}
+
+@mixin whiteBorder() {
+    border: 3px solid #fff;
+}

@@ -3,7 +3,7 @@
 }
 
 .home-link {
-    border: 3px solid #fff;
+    @include whiteBorder();
     color: #fff;
     display: inline-block;
     float: none;
@@ -11,20 +11,20 @@
     margin: 7px 4px 12px 0;
     transition: 0.4s ease-out;
 
-    &.active {
-        border: 3px solid #ff5722;
+    &:active {
+        @include border();
+        color: black;
+    }
+
+    &:hover {
+        @include border();
         color: black;
     }
 }
 
-.home-link:hover {
-    border: 3px solid #ff5722;
-    color: black;
-}
-
 .new-link1,
 .new-link2 {
-    border: 3px solid #fff;
+    @include whiteBorder();
     color: #fff;
     display: inline-block;
     float: none;
@@ -32,21 +32,14 @@
     margin: 7px 4px 12px 0;
     transition: 0.4s ease-out;
 
-    &.active {
-        border: 3px solid #ff5722;
+    &:active {
+        @include border();
         color: black;
     }
 }
 
 .new-link1:hover,
 .new-link2:hover {
-    border: 3px solid #ff5722;
+      @include border();
     color: black;
-}
-
-@media only screen and (max-width: 1200px) {
-       .col-xs-2 {
-         font-size: 1em;
-       }
-
 }
